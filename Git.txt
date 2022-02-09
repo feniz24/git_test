@@ -1,0 +1,30 @@
+git init
+git status
+git add .
+git commit -m " "
+
+git log 
+git log --oneline
+
+git checkout master -> switch back to latest
+git checkout [logname]
+
+git revert [logname] -> revert before [logname]
+git reset [logname] --hard
+
+git branch -a -> list all branch
+git branch [name]
+git checkout [branch name]
+git checkout -b [branch name] -> create and switch to new branch
+git branch -D [branch name] (only from master branch)
+
+git merge [branchname]
+
+git remote -v
+git remote add origin [web_link] -> origin=variable name
+git push origin master
+git push origin --delete [branchname]
+git clone [link]
+
+git stash <=> git stash pop
+git stash --include-untracked
